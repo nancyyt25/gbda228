@@ -218,11 +218,12 @@ footer img {
  }
 .ContactUs {
   display: block;
-  position: relative;  {
+  position: relative;
+  text-align: center;
 }
-.ContactUs a:link, .ContactUs a:visited {
+.ContactUs a:visited .ContactUs a:link {
   color: #000;
-  }
+}
 .ContactUs a:hover {
   color: #FFFFFF;
 }
