@@ -152,7 +152,7 @@ footer img {
   position: relative;
   text-align: center;
 }
-.Menu a:visited  {
+.Menu a:visited, .Menu a:link  {
   color: #000;
 }
 .Menu a:hover {
@@ -187,7 +187,7 @@ footer img {
   position: relative;
   text-align: center;
 }
-.About a:visited  {
+.About a:visited, .About a:link  {
  color: #000;
 }
 .About a:hover {
@@ -218,12 +218,11 @@ footer img {
  }
 .ContactUs {
   display: block;
-  position: relative;
-  text-align: center;
+  position: relative;  {
 }
-.ContactUs a:visited  {
+.ContactUs a:link, .ContactUs a:visited {
   color: #000;
-}
+  }
 .ContactUs a:hover {
   color: #FFFFFF;
 }
