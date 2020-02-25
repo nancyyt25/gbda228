@@ -68,7 +68,7 @@ h2 {
 .nav a:hover::before {
   width: 90%;
 }
-.nav a:visited {
+.nav a:visited, .nav a:link {
   color: #f0be29;
 }
 .nav a:hover, .nav a:active {
