@@ -1,0 +1,546 @@
+/* on every page */
+/* green: #8EC63F, orange: #f0be29 */
+body {
+  margin-left: 0em;
+  margin-right: 0em;
+  background-color: #FFF;
+}
+h1 {
+  margin-left: 0.5em;
+  margin-bottom: -1em;
+  font-size: 2em;
+}
+h1 img {
+width: 30%;
+
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2.5px;
+}
+h2 {
+  font-size: 400%;
+  padding: 1px;
+}
+
+/* navigation bar */
+.nav {
+  float: right;
+  margin-top: -3em;
+}
+.nav ul li{
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 1.5em;
+  text-align: center;
+  padding: 0.5em;
+  position: relative;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+  position: relative;
+}
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #8EC63F;;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+.nav a:hover::before {
+  width: 90%;
+}
+.nav a:visited {
+  color: #f0be29;
+}
+.nav a:hover, .nav a:active {
+  color: #8EC63F;
+}
+
+section {
+  clear: both;
+}
+
+/*banner header*/
+.banner {
+  width: 100%;
+  background-color: #8EC63F;
+}
+.banner h4 {
+  text-align: center;
+  letter-spacing: 4.5px;
+  color: #FFF;
+  margin-left: 26%;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #8EC63F;
+  margin-right: 1em;
+  margin-top: 0em;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 1em;
+  margin-left: 25%;
+  padding-top: 0.5em;
+}
+footer img {
+  display: inline-block;
+  vertical-align: middle;
+  margin:0 1em;
+  margin-bottom: 0.5em;
+  width: 25px;
+  height: 25px;
+}
+
+
+/* home */
+.container {
+  padding-left: 8%;
+  width: 85%;
+}
+.SoupSurreal {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.SoupSurreal h2{
+  position: absolute;
+  bottom: 25%;
+  left: 36%;
+}
+.SoupSurreal h4 {
+   position: absolute;
+   bottom: 30%;
+   left: 24%;
+ }
+.SoupSurreal img {
+  padding-top: 2em;
+  align-content: center;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 90%;
+  height: 350px;
+  position: relative;
+}
+.Menu {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.Menu a:visited  {
+  color: #000;
+}
+.Menu a:hover {
+  color: #FFFFFF;
+}
+.Menu a:active  {
+  color: #8EC63F;
+}
+.Menu img {
+  padding-top: 3em;
+  align-content: center;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 90%;
+  height: 350px;
+  position: relative;
+}
+.Menu h2{
+  float: left;
+  position: absolute;
+  bottom: 26%;
+  left: 44%;
+}
+ .Menu h4 {
+   float: left;
+   position: absolute;
+   bottom: 31%;
+   left: 23%;
+ }
+.About {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.About a:visited  {
+ color: #000;
+}
+.About a:hover {
+  color: #FFFFFF;
+}
+.About a:active  {
+  color: #8EC63F;
+}
+.About img {
+  padding-top: 3em;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 90%;
+  height: 350px;
+  position: relative;
+}
+.About h2{
+  float: left;
+  position: absolute;
+  bottom: 25%;
+  left: 43%;
+}
+ .About h4 {
+   float: left;
+   position: absolute;
+   bottom: 30%;
+   left: 23%;
+ }
+.ContactUs {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.ContactUs a:visited  {
+  color: #000;
+}
+.ContactUs a:hover {
+  color: #FFFFFF;
+}
+.ContactUs a:active  {
+  color: #8EC63F;
+}
+.ContactUs img {
+  padding-top: 3em;
+  align-content: center;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 90%;
+  height: 350px;
+  position: relative;
+}
+.ContactUs h2{
+  float: left;
+  position: absolute;
+  bottom: 26%;
+  left: 38%;
+}
+ .ContactUs h4 {
+   float: left;
+   position: absolute;
+   bottom: 30%;
+   left: 23%;
+}
+section {
+  overflow: auto;
+}
+
+/* contact us css */
+/* header pics */
+.ContactPage {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.ContactPage img {
+  padding-top: 2em;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 100%;
+  height: 33%;
+}
+.ContactPage h2{
+  float: left;
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
+  letter-spacing: 4px;
+}
+.ContactPage h4 {
+   float: left;
+   position: absolute;
+   bottom: 33%;
+   left: 25%;
+   letter-spacing: 4px;
+}
+h4, p {
+  width: 50%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h3 {
+  font-size: 150%;
+  margin-left: 0.7em;
+}
+
+iframe {
+  width: 35%;
+  height: 95%;
+  margin-top: -1em;
+  margin-right: 2em;
+  float: right;
+  position: relative;
+  top: -3em;
+}
+
+/* menu page */
+/*menu page header */
+.MenuPage {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.MenuPage img {
+  padding-top: 2em;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 100%;
+  height: 33%;
+}
+.MenuPage h2{
+  float: left;
+  position: absolute;
+  bottom: 30%;
+  left: 45%;
+  letter-spacing: 4px;
+}
+ .MenuPage h4 {
+   float: left;
+   position: absolute;
+   bottom: 35%;
+   left: 24%;
+   letter-spacing: 4px;
+ }
+
+/*table */
+ul img {
+  vertical-align: text-bottom;
+}
+ul {
+  display: block;
+  text-align: center;
+}
+ul li{
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+  padding: 0.5em;
+}
+.MenuList{
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin-left: 12%;
+  font-family: 'Poppins', sans-serif;
+}
+.MenuList table img {
+  vertical-align: text-bottom;
+}
+.MenuList table {
+  padding: 1em;
+}
+.MenuList td, tr{
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.MenuList td {
+  width: auto;
+}
+.MenuList td:hover {
+  background-color: #8EC63F;
+}
+.MenuList th:nth-child(1) {
+  color: #8EC63F;
+  text-transform: uppercase;
+}
+.MenuList th:nth-child(2) {
+  color: #D60D00;
+  text-transform: uppercase;
+}
+.MenuList th:nth-child(3) {
+  color: #D76F0B;
+  text-transform: uppercase;
+}
+.Suppliers {
+  width: 80%;
+  margin-left: 10%;
+}
+.Suppliers p {
+  width: 100%;
+}
+.Suppliers h3 {
+  width: 100%;
+  text-align: center;
+}
+
+/*about page */
+/*header*/
+.AboutPage {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.AboutPage img {
+  padding-top: 2em;
+  margin-top: -1em;
+  object-fit: cover;
+  width: 100%;
+  height: 33%;
+}
+.AboutPage h2{
+  float: left;
+  position: absolute;
+  bottom: 30%;
+  left: 44%;
+  letter-spacing: 4px;
+}
+.AboutPage h4 {
+   float: left;
+   position: absolute;
+   bottom: 35%;
+   left: 24%;
+   letter-spacing: 4px;
+ }
+ .chefDerek, .mission, .slowfood {
+   align-content: center;
+   text-align: center;
+   width: 80%;
+   padding-left: 20%;
+
+ }
+.mission h3, .chefDerek h3, .slowfood h3 {
+  margin-left: -30%;
+  font-size: 150%;
+  margin-bottom: 0.5em;
+  letter-spacing: 4px;
+}
+.mission p, .chefDerek p, .slowfood p {
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  width: 70%;
+}
+
+/* MOBILE */
+@media screen and (max-width: 800px) {
+/*home headers*/
+  .SoupSurreal h2{
+    bottom: 25%;
+    left: 15%;
+  }
+  .SoupSurreal h4 {
+    bottom: 25%;
+    left: 22%;
+  }
+  .Menu h2{
+    bottom: 30%;
+    left: 36%;
+  }
+  .Menu h4 {
+    bottom: 35%;
+    left: 22%;
+   }
+  .About h2{
+    bottom: 30%;
+    left: 35%;
+   }
+  .About h4 {
+    bottom: 35%;
+    left: 22%;
+    }
+  .ContactUs h2{
+    bottom: 30%;
+    left: 20%;
+    }
+  .ContactUs h4 {
+    bottom: 30%;
+    left: 22%;
+    }
+  .banner h4 {
+    width: 90%;
+    margin-left: 6%;
+    }
+  h1 {
+  margin-left: 0.5em;
+  }
+  h1 img {
+    width: 40%;
+  }
+  .nav {
+    margin-top: -2em;
+  }
+  .nav ul li{
+    font-size: 85%;
+    width: auto;
+    margin-right: 0.5em;
+  }
+  .nav ul li:last-of-type {
+    margin-right: 0em;
+  }
+  /*menu*/
+  .MenuPage h2 {
+    left: 36%;
+    bottom: 0;
+  }
+  .MenuPage h4 {
+    bottom: 15%;
+  }
+  .MenuList {
+    width: 100%;
+    margin-left: 0;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .AboutPage h2 {
+    left: 36%;
+    bottom: 0;
+  }
+  .AboutPage h4 {
+    bottom: 15%;
+  }
+  .mission, .chefDerek, .slowfood {
+    text-align: center;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0;
+  }
+  .mission h3, .chefDerek h3, .slowfood h3 {
+    margin-left: 3%;
+  }
+  .mission p, .chefDerek p, .slowfood p {
+    margin-left: 17%;
+  }
+  .ContactPage h2 {
+    left: 25%;
+    bottom: 0;
+  }
+  .ContactPage h4 {
+    bottom: 5%;
+  }
+}
